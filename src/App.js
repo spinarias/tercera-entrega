@@ -11,7 +11,7 @@ function App() {
     <div>
       <header>
       <NavBar />
-      <ItemListContainer />
+      <ItemListContainer greeting="Hola Coder House!" />
       </header>
     </div>
   );

@@ -1,8 +1,8 @@
 
-function ItemListContainer() {
+function ItemListContainer({greeting}) {
     return (
     <div>
-        <p>Hola Coder House!</p>
+        <p>{greeting}</p>
     </div>
     );
 }
